@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f4;
+    color: #2e3d2f;
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    background: #ffffff;
+}
+
+/* Decorative Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d5a27;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.nav-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #e2ebd8;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Headings */
+h2 {
+    color: #2d5a27;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e2ebd8;
+}
+
+h3 {
+    color: #3b6e34;
+    font-size: 1.1rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+div > label {
+    display: inline-block;
+    padding: 6px 0;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+div > label:hover {
+    color: #3ea530;
+    font-weight: 600;
+}
+
+input[type="checkbox"] {
+    accent-color: #3b6e34;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+button {
+    background-color: #2d5a27;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #24ee09;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#place_order_btn {
+    background-color: #2d5a27;
+    margin-top: 12px;
+}

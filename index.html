@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.3.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.3.1/core.js"></script>
+    <title>Resibo Maker</title>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-brand">🍵 Matcha Shop</div>
+    <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<h2>OBMC Entrep Fair Group 10 - Matcha Shop</h2>
+    <h3>Menu:</h3>
+
+    <div>
+        <input type="checkbox" id="Matcha1" value="59">
+        <label for="Matcha1">Matcha Latte</label><br>
+
+        <input type="checkbox" id="Matcha2" value="79">
+        <label for="Matcha2">Strawberry Matcha Latte</label><br>
+
+        <input type="checkbox" id="Matcha3" value="99">
+        <label for="Matcha3">Coconut Matcha</label><br>
+
+        <input type="checkbox" id="Matcha4" value="119">
+        <label for="Matcha4">Matcha SeaSalt</label><br>
+
+        <input type="checkbox" id="Matcha5" value="149">
+        <label for="Matcha5">Matcha Mango</label><br><br>
+
+        <button type="button" py-click="create_order">Checkout</button>
+    </div>
+
+    <br>
+    <div id="receipt_output"></div>
+    <br>
+    <button id="place_order_btn" style="display: none;" type="button" py-click="place_order">Place Order</button>
+
+    <py-script src="main.py"></py-script>
+    <link rel="stylesheet" href="styles.css">
+
+</body>
+</html>
